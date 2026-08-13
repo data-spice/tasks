@@ -1,9 +1,16 @@
 # Functions
-def greet():
-    print ("Hello peris")
+
+# def greet():
+#     print ("Hello peris")
+
+# greet()
+# greet()
+
+####    FUNCTIONS WITH A PARAMETER
+
+def greet_any(name):
+    print(f"Hello {name}")
 
 
-
-
-greet()
-greet()
+greet_any("Peris")
+greet_any("Victor")
