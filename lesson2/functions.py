@@ -26,13 +26,28 @@
 ## Kwargs **  args *
 ## Return value
 
-def sum(*a):
-    sum=0
-    for number in a:
-        sum = sum+number
-    return sum
+# def sum(*a):
+#     sum=0
+#     for number in a:
+#         sum = sum+number
+#     return sum
 
-print(sum(1))
+# print(sum(1,2,3,4,5,6,7,8,3,4,5,44,5,6,78))
+
+
+# (3+5)-1 ----> 8-1 = 7
+
+def add (a,b):
+    return (a+b)
+
+
+def subtract(c,d):
+    return(c-d)
+
+
+result=subtract(add(3,5),1)
+
+print(result)
 
     
 
