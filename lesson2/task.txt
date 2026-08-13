@@ -1,0 +1,10 @@
+1. Modify this function to be able to greet any number of names
+    # def greet_any(name):
+    #     print(f"Hello {name}")
+
+2. Create a function thet prints any number of airlines
+
+
+3. Create two functions that depend on each other
+    has_fuel 
+    can_fly
