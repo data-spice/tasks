@@ -1,7 +1,7 @@
 # Functions
 
 # def greet():
-#     print ("Hello peris")
+#     print("Hello peris")
 
 # greet()
 # greet()
@@ -17,8 +17,23 @@
 
 ####    FUNC WITH MULTIPLE PARAMETERS
 
-def id(name,phone_no):
-    print(f"Name: {name}  Phone Number: {phone_no}")
+# def id(name,phone_no):
+#     return (f"Name: {name}  Phone Number: {phone_no}")
 
-id("David",24555262728)
-id("Kush ", 12345)
+# print(id("David",24555262728))
+# id("Kush ", 12345)
+
+## Kwargs **  args *
+## Return value
+
+def sum(*a):
+    sum=0
+    for number in a:
+        sum = sum+number
+    return sum
+
+print(sum(1))
+
+    
+
+    
