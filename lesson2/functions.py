@@ -37,17 +37,26 @@
 
 # (3+5)-1 ----> 8-1 = 7
 
-def add (a,b):
-    return (a+b)
+####### DEPENDENT FUNCTIONS
+
+# def add (a,b):
+#     return (a+b)
 
 
-def subtract(c,d):
-    return(c-d)
+# def subtract(c,d):
+#     return(c-d)
 
 
-result=subtract(add(3,5),1)
+# result=subtract(add(3,5),1)
 
-print(result)
+
+
+# value=subtract(8,1)
+
+# print(result)
+
+
+####### TO DO A MULTILINE COMMENT USE     ctrl + /
 
     
 
