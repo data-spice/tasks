@@ -17,6 +17,7 @@
 
 ####    FUNC WITH MULTIPLE PARAMETERS
 
+
 # def id(name,phone_no):
 #     return (f"Name: {name}  Phone Number: {phone_no}")
 
@@ -58,6 +59,16 @@
 
 ####### TO DO A MULTILINE COMMENT USE     ctrl + /
 
-    
 
+
+# function practice2
+
+def prayer():
+    print("Lords prayer")
+prayer()   
+
+#parameters
+def prayer(name):
+    print("Lords", name)
     
+prayer("Lords") 
